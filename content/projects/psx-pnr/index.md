@@ -22,4 +22,12 @@ The system compares **Word2Vec** and **SBERT** (MiniLM, MPNet, Multilingual) emb
 
 Through a rigorous evaluation using **Precision@K** and **NDCG@K**, I showed that SBERT-MPNet produces clear sector-level separation (+0.175 Δ) where Word2Vec collapses financial vocabulary, and that SBERT without recency boosting yields the strongest overall ranking quality.
 
+**Core concepts**
+
+- **Embedding methods** — Word2Vec and SBERT (MiniLM, MPNet, Multilingual) compared as the representation backbones.
+- **User profiling** — user profile vectors constructed from simulated reading histories.
+- **Similarity ranking** — daily news ranked against user profiles using cosine similarity.
+- **Recency boosting** — optional recency weighting layered on top of the similarity scores.
+- **Ranking evaluation** — Precision@K and NDCG@K, plus sector-level separation analysis.
+
 The project deepened my expertise in sentence embeddings, contrastive retrieval, user modelling, and information-retrieval evaluation metrics.
