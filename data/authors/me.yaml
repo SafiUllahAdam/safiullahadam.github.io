@@ -13,13 +13,12 @@ status:
   icon: "🔬"
 role: M2 Research Student — Data & Intelligence for Smart Systems
 bio: |
-  Muhammad Safi Ullah Adam is a Master 2 Research student in Data and
-  Intelligence for Smart Systems at Université Claude Bernard Lyon 1,
-  conducting his thesis at the LIRIS laboratory (GOAL team) under Prof.
-  Hamida Seba. His research spans semi-supervised learning, graph
-  representation learning, computer vision, NLP, and large language models,
-  with a focus on multi-agentic systems that learn collaboratively under
-  label scarcity.
+  I am a Master 2 Research student in Data and Intelligence for Smart
+  Systems at Université Claude Bernard Lyon 1, conducting my thesis at the
+  LIRIS laboratory (GOAL team) under Prof. Hamida Seba. My research spans
+  semi-supervised learning, graph representation learning, computer vision,
+  NLP, and large language models, with a focus on multi-agentic systems
+  that learn collaboratively under label scarcity.
 
 affiliations:
   - name: LIRIS Laboratory — GOAL Team
@@ -45,7 +44,7 @@ interests:
 education:
   - degree: M2 Research — Data and Intelligence for Smart Systems
     institution: Université Claude Bernard Lyon 1, France
-    start: 2024-09-01
+    start: 2025-09-01
     summary: |
       Research master with thesis at the LIRIS laboratory (GOAL team) under
       the supervision of Prof. Hamida Seba. Thesis: CLADBench — Collaborative
@@ -81,6 +80,7 @@ experience:
       Research internship with a UK-based company in sustainable technologies,
       working in a multicultural setting where communication, collaboration,
       and openness to diverse technical perspectives were essential.
+      [Watch: research visit to China](https://youtube.com/shorts/DwhnWj-wjFo?is=WhjNIxConZHVZeE4)
   - role: Représentant Étudiant (Student Representative)
     org: National University of Technology (NUTECH), Islamabad, Pakistan
     start: 2023-10-01
@@ -95,13 +95,11 @@ skills:
     items:
       - label: Python
         level: 5
-      - label: PyTorch
-        level: 5
       - label: Graph Neural Networks
         level: 4
       - label: Computer Vision (YOLO, OpenCV, MediaPipe)
         level: 4
-      - label: NLP & LLMs (LangChain, RAG, Embeddings)
+      - label: NLP & LLMs (RAG, Embeddings)
         level: 4
       - label: Machine Learning & Semi-Supervised Learning
         level: 5
@@ -113,15 +111,19 @@ skills:
         level: 5
       - label: Cross-Cultural Collaboration
         level: 5
+      - label: Mentoring & Student Support
+        level: 5
+      - label: Multilingual Communication (English, French, Urdu)
+        level: 4
 
 languages:
   - name: English
     level: 5
     label: Full Professional (C1)
   - name: French
-    level: 3
-    label: Professional Working
-  - name: Urdu
+    level: 2
+    label: Elementary
+  - name: Urdu / Hindi
     level: 5
     label: Native
 

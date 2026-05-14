@@ -7,7 +7,7 @@ main:
   - name: Bio
     url: /
     weight: 10
-  - name: Publications
+  - name: Research
     url: /#papers
     weight: 11
   - name: Projects
@@ -16,6 +16,6 @@ main:
   - name: News
     url: /#news
     weight: 13
-  - name: Experience
+  - name: Skills and Awards
     url: experience/
     weight: 20

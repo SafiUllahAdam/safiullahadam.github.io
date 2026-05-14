@@ -35,16 +35,14 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '🔬 My Research'
+      title: '🔬 My Research Interests'
       subtitle: ''
       text: |-
-        My research sits at the intersection of **semi-supervised learning**, **graph representation learning**, **computer vision**, **natural language processing**, and **large language models**, with a growing interest in **multi-agentic systems** and how heterogeneous models can collaboratively learn from one another under label scarcity.
+        My research interests sit at the intersection of **semi-supervised learning**, **graph representation learning**, **computer vision**, **natural language processing**, and **large language models**, with a growing interest in **multi-agentic systems** and how heterogeneous models can collaboratively learn from one another under label scarcity.
 
         I am drawn to problems where data is messy, partially labelled, or distributed across modalities — exactly the conditions found in real-world healthcare, finance, and safety-critical applications. My goal is to design rigorous, reproducible, publication-quality methods that work in the real world.
 
         I am currently building **CLADBench**, an open-source, publication-grade benchmark for Collaborative Learning in Graph Anomaly Detection, as my M2 thesis at the LIRIS laboratory.
-
-        Please reach out to collaborate 😃
     design:
       columns: '1'
   - block: collection
