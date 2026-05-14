@@ -28,10 +28,12 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: mailto:safiadam229@gmail.com
+    url: mailto:muhammad-safi-ullah.adam@etu.univ-lyon1.fr
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/SafiUllahAdam
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/safi-ullah-adam/
 
 interests:
   - Semi-Supervised Learning
