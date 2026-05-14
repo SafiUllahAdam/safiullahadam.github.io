@@ -1,6 +1,6 @@
 ---
 title: 'Multilingual Word Embeddings — English–French Alignment'
-date: 2024-06-01
+date: 2026-03-01
 summary: Aligned English–French embedding spaces via orthogonal Procrustes mapping over the MUSE dictionary, validated by a language-identification classifier at ~97% accuracy.
 tags:
   - Natural Language Processing

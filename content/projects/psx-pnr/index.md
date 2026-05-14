@@ -1,6 +1,6 @@
 ---
 title: 'PSX-PNR — Personalised News Recommendation for Stock Investors'
-date: 2024-12-01
+date: 2026-01-01
 summary: A personalised news recommendation engine for Pakistan Stock Exchange investors, comparing Word2Vec and SBERT embeddings across ~35K headlines and 813K stock-market rows.
 tags:
   - Natural Language Processing

@@ -1,6 +1,6 @@
 ---
 title: 'Pose-Guided Image Synthesis for Human Motion Transfer'
-date: 2025-03-01
+date: 2025-12-01
 summary: Implemented and compared nearest-neighbour retrieval, a vanilla regression network, and a GAN for pose-guided human motion transfer, inspired by Everybody Dance Now.
 tags:
   - Computer Vision

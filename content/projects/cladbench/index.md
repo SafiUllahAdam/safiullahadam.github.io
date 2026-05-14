@@ -1,6 +1,6 @@
 ---
 title: 'CLADBench — Collaborative Learning in Graph Anomaly Detection'
-date: 2025-01-01
+date: 2026-02-01
 summary: An open-source, publication-grade benchmark unifying tabular, CV, and graph anomaly detectors under a collaborative learning framework with a pseudo-label exchange mechanism.
 tags:
   - Graph Neural Networks
