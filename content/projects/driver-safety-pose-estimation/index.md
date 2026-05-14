@@ -1,6 +1,7 @@
 ---
 title: 'Driver Safety using Human Pose Estimation'
 date: 2024-01-01
+lastmod: 2026-03-15
 summary: Top-15 National AI Project (IGNITE Innovation Fund) — a YOLOv8-based real-time pose estimation pipeline for driver fatigue and drowsiness classification.
 tags:
   - Computer Vision
@@ -8,8 +9,9 @@ tags:
   - YOLOv8
   - Behaviour Recognition
 links:
-  - type: code
+  - name: Code
     url: https://github.com/SafiUllahAdam/human_pose_estimation
+    icon: brands/github
   - type: video
     url: https://www.facebook.com/share/v/GRwRiaR99vxRw6xR/
 featured: true

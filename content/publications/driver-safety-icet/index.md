@@ -7,6 +7,7 @@ authors:
 
 date: '2026-05-01T00:00:00Z'
 publishDate: '2026-05-01T00:00:00Z'
+lastmod: '2026-03-15T00:00:00Z'
 
 # Publication type (CSL standard).
 publication_types: ['paper-conference']

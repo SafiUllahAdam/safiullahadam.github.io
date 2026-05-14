@@ -1,6 +1,7 @@
 ---
 title: 'Starting my M2 thesis — CLADBench at the LIRIS laboratory'
 date: 2025-01-15
+lastmod: 2026-03-15
 authors:
   - me
 tags:

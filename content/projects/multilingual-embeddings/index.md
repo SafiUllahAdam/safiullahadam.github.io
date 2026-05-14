@@ -1,14 +1,16 @@
 ---
 title: 'Multilingual Word Embeddings — English–French Alignment'
 date: 2026-03-01
+lastmod: 2026-03-15
 summary: Aligned English–French embedding spaces via orthogonal Procrustes mapping over the MUSE dictionary, validated by a language-identification classifier at ~97% accuracy.
 tags:
   - Natural Language Processing
   - Word Embeddings
   - Cross-Lingual NLP
 links:
-  - type: code
+  - name: Code
     url: https://github.com/SafiUllahAdam/Multilingual_Embeddings_nlp-
+    icon: brands/github
 ---
 
 I built and aligned **English–French embedding spaces** using Word2Vec, FastText, and pretrained GloVe (6B) representations — FastText chosen for alignment due to its subword-aware robustness to out-of-vocabulary words.

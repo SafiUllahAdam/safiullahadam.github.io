@@ -1,6 +1,7 @@
 ---
 title: 'NeuroRead — RAG for Research Documents'
 date: 2025-08-01
+lastmod: 2026-03-15
 summary: A Retrieval-Augmented Generation application for intelligent querying of PDF and DOCX research documents, orchestrating multiple LLM providers. Top Performer Award, PEC GenAI Program 2025.
 tags:
   - Natural Language Processing

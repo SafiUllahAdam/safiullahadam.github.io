@@ -3,6 +3,10 @@ title: 'Projects'
 date: 2024-05-19
 type: landing
 
+# Hide social share buttons on all project detail pages
+cascade:
+  share: false
+
 # Page sections
 sections:
   - block: collection
