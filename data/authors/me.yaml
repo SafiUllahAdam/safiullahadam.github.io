@@ -1,0 +1,142 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Muhammad Safi Ullah Adam
+  given: Muhammad Safi Ullah
+  family: Adam
+  alternate: ''
+  pronunciation: ''
+  pronouns: he/him
+postnominals: []
+status:
+  icon: "🔬"
+role: M2 Research Student — Data & Intelligence for Smart Systems
+bio: |
+  Muhammad Safi Ullah Adam is a Master 2 Research student in Data and
+  Intelligence for Smart Systems at Université Claude Bernard Lyon 1,
+  conducting his thesis at the LIRIS laboratory (GOAL team) under Prof.
+  Hamida Seba. His research spans semi-supervised learning, graph
+  representation learning, computer vision, NLP, and large language models,
+  with a focus on multi-agentic systems that learn collaboratively under
+  label scarcity.
+
+affiliations:
+  - name: LIRIS Laboratory — GOAL Team
+    url: https://liris.cnrs.fr/
+  - name: Université Claude Bernard Lyon 1
+    url: https://www.univ-lyon1.fr/
+
+links:
+  - icon: at-symbol
+    url: mailto:safiadam229@gmail.com
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/SafiUllahAdam
+
+interests:
+  - Semi-Supervised Learning
+  - Graph Representation Learning & GNNs
+  - Computer Vision
+  - Natural Language Processing & LLMs
+  - Multi-Agentic Systems
+  - Retrieval-Augmented Generation
+
+education:
+  - degree: M2 Research — Data and Intelligence for Smart Systems
+    institution: Université Claude Bernard Lyon 1, France
+    start: 2024-09-01
+    summary: |
+      Research master with thesis at the LIRIS laboratory (GOAL team) under
+      the supervision of Prof. Hamida Seba. Thesis: CLADBench — Collaborative
+      Learning in Graph Anomaly Detection.
+    button:
+      text: Download CV
+      url: uploads/resume.pdf
+      icon: hero/arrow-down-tray
+  - degree: Bachelor of Computer Engineering
+    institution: National University of Technology (NUTECH), Islamabad, Pakistan
+    start: 2020-09-01
+    end: 2024-08-31
+    summary: |
+      Final-year project "Driver Safety using Human Pose Estimation" selected
+      among the Top 15 National AI Projects by Pakistan's IGNITE Innovation
+      Fund and featured on national television.
+
+experience:
+  - role: Tuteur Étudiant (Student Tutor)
+    org: Université Claude Bernard Lyon 1 — Direction des Relations Internationales
+    start: 2025-09-01
+    end: 2026-04-30
+    summary: |
+      First point of contact for incoming international students in Lyon.
+      Staffed welcome and information desks, guided students to campus
+      services, and supported them through administrative procedures
+      (enrolment, housing, scheduling). 10 hours/week across the academic year.
+  - role: Research Intern — Sustainable Technologies
+    org: UK-based company
+    start: 2023-06-01
+    end: 2023-08-31
+    summary: |
+      Research internship with a UK-based company in sustainable technologies,
+      working in a multicultural setting where communication, collaboration,
+      and openness to diverse technical perspectives were essential.
+  - role: Représentant Étudiant (Student Representative)
+    org: National University of Technology (NUTECH), Islamabad, Pakistan
+    start: 2023-10-01
+    end: 2024-09-30
+    summary: |
+      First point of contact between students and university administration,
+      routing requests to the right services, onboarding new students, and
+      managing class-wide information channels for the cohort.
+
+skills:
+  - name: Technical Skills
+    items:
+      - label: Python
+        level: 5
+      - label: PyTorch
+        level: 5
+      - label: Graph Neural Networks
+        level: 4
+      - label: Computer Vision (YOLO, OpenCV, MediaPipe)
+        level: 4
+      - label: NLP & LLMs (LangChain, RAG, Embeddings)
+        level: 4
+      - label: Machine Learning & Semi-Supervised Learning
+        level: 5
+  - name: Research & Communication
+    items:
+      - label: Academic Writing & Publication
+        level: 4
+      - label: Conference Presentations
+        level: 5
+      - label: Cross-Cultural Collaboration
+        level: 5
+
+languages:
+  - name: English
+    level: 5
+    label: Full Professional (C1)
+  - name: French
+    level: 3
+    label: Professional Working
+  - name: Urdu
+    level: 5
+    label: Native
+
+awards:
+  - title: Top Performer Award
+    awarder: Pakistan Engineering Council — Generative AI Application Developer Program
+    date: "2025-01-01"
+    summary: |
+      Awarded for NeuroRead, a Retrieval-Augmented Generation application for
+      intelligent querying of research documents.
+    icon: hero/trophy
+  - title: Top 15 National AI Projects
+    awarder: IGNITE Innovation Fund, Pakistan
+    date: "2024-01-01"
+    summary: |
+      "Driver Safety using Human Pose Estimation" received national funding
+      and was featured on Pakistani national television.
+    icon: hero/trophy
