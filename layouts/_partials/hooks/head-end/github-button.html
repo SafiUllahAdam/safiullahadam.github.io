@@ -2,7 +2,7 @@
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  var allHeadings = document.querySelectorAll('h1, h2, h3');
+  var allHeadings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
   for (var r = 0; r < allHeadings.length; r++) {
     if ((allHeadings[r].textContent || '').trim().toLowerCase() === 'recent publications') {
       var recentSection = allHeadings[r].closest('section') || allHeadings[r].parentElement;
@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
   for (var i = 0; i < headings.length; i++) {
     if ((headings[i].textContent || '').trim().toLowerCase() === 'experience') {
       headings[i].textContent = 'Leadership & Student Support';
+      headings[i].classList.add('experience-section-heading');
       var leadershipSection = headings[i].closest('section') || headings[i].parentElement;
       if (leadershipSection) leadershipSection.classList.add('experience-leadership');
       break;
@@ -40,6 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   for (var k = 0; k < headings.length; k++) {
     if ((headings[k].textContent || '').trim().toLowerCase() === 'awards') {
+      headings[k].classList.add('experience-section-heading');
       var awardsSection = headings[k].closest('section') || headings[k].parentElement;
       if (awardsSection) awardsSection.classList.add('experience-awards');
       break;
@@ -48,6 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   for (var l = 0; l < headings.length; l++) {
     if ((headings[l].textContent || '').trim().toLowerCase() === 'skills & hobbies') {
+      headings[l].classList.add('experience-section-heading');
       var skillsSection = headings[l].closest('section') || headings[l].parentElement;
       if (skillsSection) skillsSection.classList.add('experience-skills');
       break;

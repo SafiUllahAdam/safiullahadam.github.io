@@ -8,7 +8,7 @@ main:
     url: /
     weight: 10
   - name: Research
-    url: /#papers
+    url: /publications/driver-safety-icet/
     weight: 11
   - name: Projects
     url: /#projects
