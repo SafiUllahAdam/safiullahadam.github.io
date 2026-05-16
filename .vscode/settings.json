@@ -1,0 +1,6 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "Write-Error": true,
+        "Set-Content": true
+    }
+}

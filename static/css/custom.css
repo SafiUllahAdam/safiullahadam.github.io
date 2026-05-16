@@ -46,3 +46,24 @@ section {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
 }
+
+html, body {
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
+}
+
+body, .app, .site, .container, .page, .page__content, .content, .main, .wrapper {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
+}
+
+.container, .page, .page__content, .content, .main, .wrapper {
+  max-width: 1300px !important;
+}
+
+.card, .article-card, .project-card, .section, .collection {
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+}

@@ -14,7 +14,11 @@ sections:
     content:
       username: me
       title: Leadership and Student Support
+      section_title: Leadership and Student Support
+      heading: Leadership and Student Support
       show_education: false
+      hide_education: true
+      hideEducation: true
     design:
       # Hugo date format
       date_format: 'January 2006'
