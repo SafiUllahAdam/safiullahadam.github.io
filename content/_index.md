@@ -51,16 +51,7 @@ sections:
     id: papers
     content:
       title: Featured Publications
-      text: |-
-        [![Driver Safety using Human Pose Estimation](/uploads/featured-publication.png)](/publication/driver-safety-icet/)
-
-        **Computer Vision**
-
-        ### [Driver Safety using Human Pose Estimation](/publication/driver-safety-icet/)
-
-        A YOLOv8-based real-time pose estimation pipeline with attention over safety-critical regions for driver fatigue and drowsiness classification on the DriPE dataset.
-
-        [Read publication](/publication/driver-safety-icet/)
+      text: ''
     design:
       columns: '1'
   - block: collection

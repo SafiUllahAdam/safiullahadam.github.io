@@ -285,52 +285,6 @@ section#papers .article-grid {
   font-weight: 700 !important;
 }
 
-.featured-publications-section .prose,
-.featured-publications-section .max-w-prose,
-.featured-publications-section > div,
-#papers .prose,
-#papers .max-w-prose,
-#papers > div {
-  max-width: 620px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-.featured-publications-section p:has(img),
-#papers p:has(img) {
-  margin: 0.75rem auto 0.5rem !important;
-  width: 120px !important;
-}
-
-.featured-publications-section p:has(img) img,
-.featured-publications-section img,
-#papers p:has(img) img,
-#papers img {
-  width: 120px !important;
-  height: 80px !important;
-  max-width: 120px !important;
-  max-height: 80px !important;
-  object-fit: cover !important;
-  border-radius: 0.5rem !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-.featured-publications-section h3,
-#papers h3 {
-  margin-top: 0.35rem !important;
-  margin-bottom: 0.35rem !important;
-  font-size: 1.05rem !important;
-  line-height: 1.25 !important;
-}
-
-.featured-publications-section p,
-#papers p {
-  margin-top: 0.35rem !important;
-  margin-bottom: 0.35rem !important;
-  line-height: 1.35 !important;
-}
-
 .experience-awards,
 .experience-awards > div,
 .experience-skills,
