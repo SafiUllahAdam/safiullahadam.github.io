@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', function () {
   for (var i = 0; i < headings.length; i++) {
     if ((headings[i].textContent || '').trim().toLowerCase() === 'experience') {
       headings[i].textContent = 'Leadership & Student Support';
+      var leadershipSection = headings[i].closest('section') || headings[i].parentElement;
+      if (leadershipSection) leadershipSection.classList.add('experience-leadership');
       break;
     }
   }

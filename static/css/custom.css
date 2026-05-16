@@ -101,6 +101,19 @@ section > div,
   .resume-biography > .max-w-7xl > .grid > .md\:col-span-8 {
     grid-column: auto !important;
   }
+
+  .resume-biography .interests,
+  .resume-biography [class*="interests"] {
+    max-width: 900px !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    justify-self: start !important;
+  }
+
+  .resume-biography .interests ul,
+  .resume-biography [class*="interests"] ul {
+    justify-content: flex-start !important;
+  }
 }
 
 #papers .article-grid,
@@ -118,26 +131,56 @@ section#papers .article-grid {
   margin-right: auto !important;
 }
 
+#papers img {
+  max-height: 180px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+#papers :is(.article-card, .card) :is(figure, picture) {
+  max-height: 180px !important;
+  overflow: hidden !important;
+}
+
 .experience-awards,
-.experience-awards > div {
-  max-width: 980px !important;
+.experience-awards > div,
+.experience-skills,
+.experience-skills > div,
+.experience-leadership,
+.experience-leadership > div {
+  max-width: 900px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-.experience-awards :is(.card, article, li, .rounded-xl, .rounded-lg) {
-  max-width: 980px !important;
+.experience-page :is(.experience-leadership, .experience-skills, .experience-awards) {
+  padding-top: 0.35rem !important;
+  padding-bottom: 0.35rem !important;
+}
+
+.experience-page :is(.experience-leadership, .experience-skills, .experience-awards) :is(h1, h2) {
+  font-size: 2rem !important;
+  line-height: 1.15 !important;
+  margin-top: 0.25rem !important;
+  margin-bottom: 1rem !important;
+  text-align: center !important;
+}
+
+.experience-page :is(.experience-leadership, .experience-skills, .experience-awards) :is(.card, article, li, .rounded-xl, .rounded-lg) {
+  max-width: 900px !important;
   min-height: 0 !important;
 }
 
-.experience-awards :is(.card, article, .rounded-xl, .rounded-lg) {
-  padding: 1.25rem 1.5rem !important;
+.experience-page :is(.experience-leadership, .experience-skills, .experience-awards) :is(.card, article, .rounded-xl, .rounded-lg) {
+  padding: 0.9rem 1.15rem !important;
+  margin-top: 0.55rem !important;
+  margin-bottom: 0.55rem !important;
 }
 
-.experience-awards p {
-  margin-top: 0.45rem !important;
-  margin-bottom: 0.45rem !important;
-  line-height: 1.45 !important;
+.experience-page :is(.experience-leadership, .experience-skills, .experience-awards) p {
+  margin-top: 0.3rem !important;
+  margin-bottom: 0.3rem !important;
+  line-height: 1.35 !important;
 }
 
 .experience-awards svg {
@@ -145,28 +188,21 @@ section#papers .article-grid {
   height: 1.1rem !important;
 }
 
-.experience-skills,
-.experience-skills > div {
-  max-width: 1100px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
 .experience-skills :is(.grid, ul) {
-  max-width: 1100px !important;
+  max-width: 900px !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  gap: 1.25rem !important;
+  gap: 0.85rem 1.25rem !important;
 }
 
 .experience-skills :is(.card, article, .rounded-xl, .rounded-lg) {
-  padding: 1rem 1.25rem !important;
+  padding: 0.85rem 1rem !important;
   min-height: 0 !important;
 }
 
 .experience-skills h3,
 .experience-skills h4 {
-  margin-bottom: 0.85rem !important;
+  margin-bottom: 0.55rem !important;
 }
 
 .experience-skills p,
@@ -180,5 +216,5 @@ section#papers .article-grid {
 .experience-skills .progress,
 .experience-skills :is(.h-2, .h-3) {
   max-width: 100% !important;
-  height: 0.45rem !important;
+  height: 0.35rem !important;
 }
