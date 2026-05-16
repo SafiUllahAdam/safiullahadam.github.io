@@ -2,11 +2,19 @@
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  if (window.location.pathname !== '/experience/' && window.location.pathname !== '/experience') return;
+  var allHeadings = document.querySelectorAll('h1, h2, h3');
+  for (var p = 0; p < allHeadings.length; p++) {
+    if ((allHeadings[p].textContent || '').trim().toLowerCase() === 'featured publications') {
+      var papersSection = allHeadings[p].closest('section') || allHeadings[p].parentElement;
+      if (papersSection) papersSection.classList.add('featured-publications-section');
+      break;
+    }
+  }
 
+  if (window.location.pathname !== '/experience/' && window.location.pathname !== '/experience') return;
   document.body.classList.add('experience-page');
 
-  var headings = document.querySelectorAll('h1, h2, h3');
+  var headings = allHeadings;
   for (var i = 0; i < headings.length; i++) {
     if ((headings[i].textContent || '').trim().toLowerCase() === 'experience') {
       headings[i].textContent = 'Leadership & Student Support';

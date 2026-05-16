@@ -142,6 +142,26 @@ section#papers .article-grid {
   overflow: hidden !important;
 }
 
+.featured-publications-section img {
+  width: 180px !important;
+  height: 120px !important;
+  max-width: 180px !important;
+  max-height: 120px !important;
+  object-fit: cover !important;
+  display: block !important;
+  border-radius: 0.5rem !important;
+}
+
+.featured-publications-section :is(figure, picture) {
+  width: 180px !important;
+  height: 120px !important;
+  max-width: 180px !important;
+  max-height: 120px !important;
+  overflow: hidden !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .experience-awards,
 .experience-awards > div,
 .experience-skills,
