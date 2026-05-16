@@ -11,6 +11,19 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
+  document.querySelectorAll('a[href*="/publications/driver-safety-icet/"]').forEach(function (link) {
+    var citation = link.closest('li, article, .citation, .publication-list, .pub-list-item, div') || link.parentElement;
+    if (citation) {
+      citation.classList.add('recent-publication-citation-centered');
+    }
+  });
+
+  if (window.location.pathname === '/projects/driver-safety-pose-estimation/' || window.location.pathname === '/projects/driver-safety-pose-estimation') {
+    document.querySelectorAll('a[href$="/projects/pose-guided-synthesis/"], a[href$="/projects/pose-guided-synthesis"]').forEach(function (link) {
+      link.href = '/projects/driver-safety-pose-estimation/';
+    });
+  }
+
   if (window.location.pathname !== '/experience/' && window.location.pathname !== '/experience') return;
   document.body.classList.add('experience-page');
 

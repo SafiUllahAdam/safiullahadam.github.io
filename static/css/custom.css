@@ -197,6 +197,27 @@ section > div,
   text-align: center !important;
 }
 
+#recent-publications,
+#recent-publications > div,
+#recent-publications :is(div, p, ol, ul, li, article) {
+  max-width: 900px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+.recent-publication-citation-centered,
+.recent-publication-citation-centered * {
+  text-align: center !important;
+}
+
+.recent-publication-citation-centered {
+  display: block !important;
+  max-width: 900px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .experience-skills :is(.card, article, .rounded-xl, .rounded-lg) {
   padding: 0.85rem 1rem !important;
   min-height: 0 !important;
