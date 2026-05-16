@@ -4,6 +4,8 @@
 document.addEventListener('DOMContentLoaded', function () {
   if (window.location.pathname !== '/experience/' && window.location.pathname !== '/experience') return;
 
+  document.body.classList.add('experience-page');
+
   var headings = document.querySelectorAll('h1, h2, h3');
   for (var i = 0; i < headings.length; i++) {
     if ((headings[i].textContent || '').trim().toLowerCase() === 'experience') {
@@ -14,8 +16,30 @@ document.addEventListener('DOMContentLoaded', function () {
 
   for (var j = 0; j < headings.length; j++) {
     if ((headings[j].textContent || '').trim().toLowerCase() === 'education') {
-      var section = headings[j].closest('section') || headings[j].parentElement;
-      if (section) section.remove();
+      var parent = headings[j].parentElement;
+      var current = headings[j];
+
+      while (current && current.parentElement === parent) {
+        var next = current.nextElementSibling;
+        current.remove();
+        current = next;
+      }
+      break;
+    }
+  }
+
+  for (var k = 0; k < headings.length; k++) {
+    if ((headings[k].textContent || '').trim().toLowerCase() === 'awards') {
+      var awardsSection = headings[k].closest('section') || headings[k].parentElement;
+      if (awardsSection) awardsSection.classList.add('experience-awards');
+      break;
+    }
+  }
+
+  for (var l = 0; l < headings.length; l++) {
+    if ((headings[l].textContent || '').trim().toLowerCase() === 'skills & hobbies') {
+      var skillsSection = headings[l].closest('section') || headings[l].parentElement;
+      if (skillsSection) skillsSection.classList.add('experience-skills');
       break;
     }
   }

@@ -91,3 +91,94 @@ section > div,
 .collection > div {
   width: 100% !important;
 }
+
+@media (min-width: 768px) {
+  .resume-biography > .max-w-7xl > .grid {
+    grid-template-columns: minmax(260px, 340px) minmax(0, 1fr) !important;
+  }
+
+  .resume-biography > .max-w-7xl > .grid > .md\:col-span-4,
+  .resume-biography > .max-w-7xl > .grid > .md\:col-span-8 {
+    grid-column: auto !important;
+  }
+}
+
+#papers .article-grid,
+section#papers .article-grid {
+  display: grid !important;
+  grid-template-columns: minmax(320px, 860px) !important;
+  justify-content: center !important;
+}
+
+#papers .article-card,
+#papers .card {
+  width: 100% !important;
+  max-width: 860px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.experience-awards,
+.experience-awards > div {
+  max-width: 980px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.experience-awards :is(.card, article, li, .rounded-xl, .rounded-lg) {
+  max-width: 980px !important;
+  min-height: 0 !important;
+}
+
+.experience-awards :is(.card, article, .rounded-xl, .rounded-lg) {
+  padding: 1.25rem 1.5rem !important;
+}
+
+.experience-awards p {
+  margin-top: 0.45rem !important;
+  margin-bottom: 0.45rem !important;
+  line-height: 1.45 !important;
+}
+
+.experience-awards svg {
+  width: 1.1rem !important;
+  height: 1.1rem !important;
+}
+
+.experience-skills,
+.experience-skills > div {
+  max-width: 1100px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.experience-skills :is(.grid, ul) {
+  max-width: 1100px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  gap: 1.25rem !important;
+}
+
+.experience-skills :is(.card, article, .rounded-xl, .rounded-lg) {
+  padding: 1rem 1.25rem !important;
+  min-height: 0 !important;
+}
+
+.experience-skills h3,
+.experience-skills h4 {
+  margin-bottom: 0.85rem !important;
+}
+
+.experience-skills p,
+.experience-skills li,
+.experience-skills span {
+  line-height: 1.25 !important;
+}
+
+.experience-skills [role="progressbar"],
+.experience-skills progress,
+.experience-skills .progress,
+.experience-skills :is(.h-2, .h-3) {
+  max-width: 100% !important;
+  height: 0.45rem !important;
+}
