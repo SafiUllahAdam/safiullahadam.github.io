@@ -6,7 +6,23 @@ document.addEventListener('DOMContentLoaded', function () {
   for (var p = 0; p < allHeadings.length; p++) {
     if ((allHeadings[p].textContent || '').trim().toLowerCase() === 'featured publications') {
       var papersSection = allHeadings[p].closest('section') || allHeadings[p].parentElement;
-      if (papersSection) papersSection.classList.add('featured-publications-section');
+      if (papersSection) {
+        papersSection.classList.add('featured-publications-section');
+        var image = papersSection.querySelector('img');
+        var card = image && (image.closest('article') || image.closest('.card') || image.closest('[class*="card"]'));
+
+        if (image && card) {
+          card.classList.add('featured-publication-card-compact');
+
+          var node = image.parentElement;
+          while (node && node !== card) {
+            node.classList.add('featured-publication-media-compact');
+            node = node.parentElement;
+          }
+
+          image.classList.add('featured-publication-image-compact');
+        }
+      }
       break;
     }
   }

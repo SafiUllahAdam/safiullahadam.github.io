@@ -196,6 +196,41 @@ section#papers .article-grid {
   min-height: 0 !important;
 }
 
+.featured-publication-card-compact {
+  display: grid !important;
+  grid-template-columns: 120px minmax(0, 1fr) !important;
+  gap: 1rem !important;
+  max-width: 620px !important;
+  min-height: 0 !important;
+  padding: 0.9rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  overflow: hidden !important;
+}
+
+.featured-publication-media-compact {
+  width: 120px !important;
+  height: 80px !important;
+  max-width: 120px !important;
+  max-height: 80px !important;
+  min-height: 0 !important;
+  aspect-ratio: auto !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  background: transparent !important;
+}
+
+.featured-publication-image-compact {
+  width: 120px !important;
+  height: 80px !important;
+  max-width: 120px !important;
+  max-height: 80px !important;
+  min-height: 0 !important;
+  object-fit: cover !important;
+  display: block !important;
+}
+
 .experience-awards,
 .experience-awards > div,
 .experience-skills,
