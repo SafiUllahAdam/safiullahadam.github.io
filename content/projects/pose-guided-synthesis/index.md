@@ -1,6 +1,6 @@
 ---
 title: 'Human Pose Estimation Research'
-date: 2025-12-01
+date: 2025-12-07
 lastmod: 2026-03-15
 summary: Developed a human pose estimation research pipeline combining YOLOv8-based detection with pose refinement for robust real-time skeleton tracking.
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Graph Database and Knowledge Graph Querying: ICIJ Property Graph and DBpedia Analysis'
-date: 2025-11-01
+date: 2026-03-03
 lastmod: 2026-03-15
 summary: Analysed the ICIJ property graph in Neo4j/Cypher and queried DBpedia with SPARQL to compare property graph and RDF knowledge graph paradigms.
 tags:
