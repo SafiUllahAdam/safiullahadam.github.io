@@ -119,14 +119,14 @@ section > div,
 #papers .article-grid,
 section#papers .article-grid {
   display: grid !important;
-  grid-template-columns: minmax(320px, 860px) !important;
+  grid-template-columns: minmax(280px, 680px) !important;
   justify-content: center !important;
 }
 
 #papers .article-card,
 #papers .card {
   width: 100% !important;
-  max-width: 860px !important;
+  max-width: 680px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -160,6 +160,40 @@ section#papers .article-grid {
   overflow: hidden !important;
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+.featured-publications-section :is(.article-card, .card, article) {
+  display: grid !important;
+  grid-template-columns: 120px minmax(0, 1fr) !important;
+  gap: 1rem !important;
+  max-width: 680px !important;
+  padding: 0.9rem !important;
+  align-items: start !important;
+  overflow: hidden !important;
+}
+
+.featured-publications-section :is(.article-card, .card, article) > :first-child {
+  width: 120px !important;
+  height: 80px !important;
+  max-width: 120px !important;
+  max-height: 80px !important;
+  min-height: 0 !important;
+  aspect-ratio: auto !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  background: transparent !important;
+}
+
+.featured-publications-section :is(.article-card, .card, article) > :not(:first-child) {
+  min-width: 0 !important;
+  padding: 0 !important;
+}
+
+.featured-publications-section :is(.article-card, .card, article) :is(.aspect-video, .aspect-\[16\/9\], [class*="aspect-"]) {
+  aspect-ratio: auto !important;
+  height: 80px !important;
+  min-height: 0 !important;
 }
 
 .experience-awards,
