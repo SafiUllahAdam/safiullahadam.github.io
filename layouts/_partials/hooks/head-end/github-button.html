@@ -11,5 +11,13 @@ document.addEventListener('DOMContentLoaded', function () {
       break;
     }
   }
+
+  for (var j = 0; j < headings.length; j++) {
+    if ((headings[j].textContent || '').trim().toLowerCase() === 'education') {
+      var section = headings[j].closest('section') || headings[j].parentElement;
+      if (section) section.remove();
+      break;
+    }
+  }
 });
 </script>

@@ -60,10 +60,34 @@ body, .app, .site, .container, .page, .page__content, .content, .main, .wrapper 
 }
 
 .container, .page, .page__content, .content, .main, .wrapper {
-  max-width: 1300px !important;
+  max-width: 1600px !important;
 }
 
 .card, .article-card, .project-card, .section, .collection {
   margin-left: 0.5rem !important;
   margin-right: 0.5rem !important;
+}
+
+.max-w-prose,
+.prose,
+.max-w-3xl,
+.max-w-4xl,
+.max-w-5xl,
+.max-w-6xl,
+.max-w-7xl,
+.max-w-screen-lg,
+.max-w-screen-xl,
+.max-w-screen-2xl {
+  max-width: min(94vw, 1500px) !important;
+}
+
+.container,
+.page,
+.page__content,
+.content,
+.main,
+.wrapper,
+section > div,
+.collection > div {
+  width: 100% !important;
 }
