@@ -17,6 +17,7 @@ sections:
         folders:
           - projects
         exclude_featured: false
+      count: 6
     design:
       view: article-grid
       fill_image: false
@@ -24,4 +25,6 @@ sections:
       show_date: false
       show_read_time: false
       show_read_more: false
+      spacing:
+        padding: [1rem, 1rem, 1rem, 1rem]
 ---

@@ -137,6 +137,13 @@ awards:
       Awarded for NeuroRead, a Retrieval-Augmented Generation application for
       intelligent querying of research documents.
     icon: hero/trophy
+  - title: Conference Presentation
+    awarder: 2nd International Conference on Emerging Technologies (ICET)
+    date: "2025-01-01"
+    summary: |
+      Presented Human Pose Estimation research at the 2nd International
+      Conference on Emerging Technologies (ICET).
+    icon: hero/trophy
   - title: Top 15 National AI Projects
     awarder: IGNITE Innovation Fund, Pakistan
     date: "2024-01-01"

@@ -34,7 +34,7 @@ sections:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
       spacing:
-        padding: [2rem, 1rem, 1rem, 1rem]
+        padding: [1rem, 1rem, 1rem, 1rem]
   - block: markdown
     content:
       title: '🔬 My Research Interests'
@@ -77,7 +77,10 @@ sections:
         folders:
           - projects
         exclude_featured: false
+      count: 6
     design:
       view: article-grid
       columns: 3
+      spacing:
+        padding: [1rem, 1rem, 1rem, 1rem]
 ---

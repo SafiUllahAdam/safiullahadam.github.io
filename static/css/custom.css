@@ -1,0 +1,48 @@
+html {
+  font-size: 15px !important;
+}
+
+body,
+main,
+section,
+article,
+.page,
+.page__content,
+.block,
+.section,
+.collection,
+.article-grid,
+.card,
+.project-card,
+.article-card,
+.page-header,
+.page-title,
+.section__title {
+  margin-top: 0.75rem !important;
+  margin-bottom: 0.75rem !important;
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.page-title,
+.section__title {
+  line-height: 1.15 !important;
+}
+
+p, li, a, span, div {
+  font-size: 0.95rem !important;
+}
+
+.card,
+.article-card,
+.project-card,
+.section,
+.collection {
+  padding: 1rem !important;
+}
+
+section {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
