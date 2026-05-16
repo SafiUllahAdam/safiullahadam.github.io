@@ -47,13 +47,6 @@ sections:
         I am currently building **CLADBench**, an open-source, publication-grade benchmark for Collaborative Learning in Graph Anomaly Detection, as my M2 thesis at the LIRIS laboratory.
     design:
       columns: '1'
-  - block: markdown
-    id: papers
-    content:
-      title: Featured Publications
-      text: ''
-    design:
-      columns: '1'
   - block: collection
     content:
       title: Recent Publications
