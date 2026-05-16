@@ -33,3 +33,34 @@ sections:
       title: Languages
       username: me
 ---
+
+<!-- Page-specific script: rename Experience heading and remove Education section on this page only -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  try {
+    // Rename top 'Experience' heading if present
+    var headings = document.querySelectorAll('h1, h2, h3');
+    for (var i = 0; i < headings.length; i++) {
+      var t = headings[i].textContent && headings[i].textContent.trim();
+      if (!t) continue;
+      if (t.toLowerCase() === 'experience') {
+        headings[i].textContent = 'Leadership & Student Support';
+        break;
+      }
+    }
+
+    // Find and remove the Education section by locating its heading
+    var allHeadings = document.querySelectorAll('h1, h2, h3, h4');
+    for (var j = 0; j < allHeadings.length; j++) {
+      var txt = (allHeadings[j].textContent || '').trim();
+      if (txt.toLowerCase() === 'education') {
+        var sec = allHeadings[j].closest('section') || allHeadings[j].parentElement;
+        if (sec) sec.remove();
+        break;
+      }
+    }
+  } catch (e) {
+    console.warn('Page script error:', e);
+  }
+});
+</script>
