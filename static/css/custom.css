@@ -132,31 +132,31 @@ section#papers .article-grid {
 }
 
 #papers img {
-  max-height: 180px !important;
+  max-height: 80px !important;
   width: 100% !important;
   object-fit: cover !important;
 }
 
 #papers :is(.article-card, .card) :is(figure, picture) {
-  max-height: 180px !important;
+  max-height: 80px !important;
   overflow: hidden !important;
 }
 
 .featured-publications-section img {
-  width: 180px !important;
-  height: 120px !important;
-  max-width: 180px !important;
-  max-height: 120px !important;
+  width: 120px !important;
+  height: 80px !important;
+  max-width: 120px !important;
+  max-height: 80px !important;
   object-fit: cover !important;
   display: block !important;
   border-radius: 0.5rem !important;
 }
 
 .featured-publications-section :is(figure, picture) {
-  width: 180px !important;
-  height: 120px !important;
-  max-width: 180px !important;
-  max-height: 120px !important;
+  width: 120px !important;
+  height: 80px !important;
+  max-width: 120px !important;
+  max-height: 80px !important;
   overflow: hidden !important;
   margin-left: auto !important;
   margin-right: auto !important;
