@@ -1,2 +1,15 @@
 <link rel="stylesheet" href="/css/custom.css">
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  if (window.location.pathname !== '/experience/' && window.location.pathname !== '/experience') return;
+
+  var headings = document.querySelectorAll('h1, h2, h3');
+  for (var i = 0; i < headings.length; i++) {
+    if ((headings[i].textContent || '').trim().toLowerCase() === 'experience') {
+      headings[i].textContent = 'Leadership & Student Support';
+      break;
+    }
+  }
+});
+</script>
