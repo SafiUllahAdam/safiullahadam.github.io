@@ -1,23 +1,23 @@
 ---
-title: 'Pose-Guided Image Synthesis for Human Motion Transfer'
+title: 'Human Pose Estimation Research'
 date: 2025-12-01
 lastmod: 2026-03-15
-summary: Implemented and compared nearest-neighbour retrieval, a vanilla regression network, and a GAN for pose-guided human motion transfer, inspired by Everybody Dance Now.
+summary: Developed a human pose estimation research pipeline combining YOLOv8-based detection with pose refinement for robust real-time skeleton tracking.
 tags:
   - Computer Vision
-  - Generative Models
-  - GANs
-  - Image Synthesis
+  - Pose Estimation
+  - Deep Learning
+  - Human Motion
 ---
 
-An academic research project on **Pose-Guided Image Synthesis for Human Motion Transfer**, inspired by *Everybody Dance Now*.
+An academic research project on **Human Pose Estimation**, focusing on robust real-time skeleton tracking and pose refinement for applications in safety and motion analysis.
 
 <!--more-->
 
-I implemented and compared three approaches:
+The work includes:
 
-- **Nearest-neighbour retrieval** over a pose database.
-- A **vanilla neural network** regressing joint coordinates to RGB images.
-- A **GAN** for adversarial refinement.
+- A **YOLOv8-based detection pipeline** for person localization and initial pose heatmap extraction.
+- A **refinement stage** that improves joint accuracy using spatio-temporal feature fusion.
+- An evaluation on real-world video streams to verify reliability under occlusion and varying lighting.
 
-The pipeline used **MediaPipe** for skeleton extraction, **PyTorch** for training, and **OpenCV** for video processing. The project sharpened my understanding of generative modelling, GAN-based image synthesis, intermediate representations, and the trade-offs between realism, generalisation, and visual fidelity.
+The project used **PyTorch**, **OpenCV**, and modern pose estimation techniques to deliver accurate human skeleton tracking for downstream research in safety, behavior analysis, and motion understanding.
