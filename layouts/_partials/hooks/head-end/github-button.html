@@ -8,21 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
       var papersSection = allHeadings[p].closest('section') || allHeadings[p].parentElement;
       if (papersSection) {
         papersSection.classList.add('featured-publications-section');
-        papersSection.querySelectorAll('article, .article-card, .featured-publication-manual-card').forEach(function (node) {
-          node.remove();
-        });
-
-        var card = document.createElement('div');
-        card.className = 'featured-publication-manual-card';
-        card.innerHTML =
-          '<img src="/uploads/featured-publication.png" alt="Driver Safety using Human Pose Estimation">' +
-          '<div class="featured-publication-manual-body">' +
-          '<span class="featured-publication-manual-tag">Computer Vision</span>' +
-          '<h3><a href="/publication/driver-safety-icet/">Driver Safety using Human Pose Estimation</a></h3>' +
-          '<p>A YOLOv8-based real-time pose estimation pipeline with attention over safety-critical regions for driver fatigue and drowsiness classification on the DriPE dataset.</p>' +
-          '<a class="featured-publication-manual-link" href="/publication/driver-safety-icet/">Read publication</a>' +
-          '</div>';
-        papersSection.appendChild(card);
       }
       break;
     }
