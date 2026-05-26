@@ -40,7 +40,7 @@ sections:
       title: '🔬 My Research Interests'
       subtitle: ''
       text: |-
-        My research interests sit at the intersection of **semi-supervised learning**, **graph representation learning**, **computer vision**, **natural language processing**, and **large language models**, with a growing interest in **multi-agentic systems** and how heterogeneous models can collaboratively learn from one another under label scarcity.
+        My research interests sit at the intersection of **semi-supervised learning**, **graph representation learning**, **computer vision**, **natural language processing**, and **large language models**, with a growing interest in how **multiple models can learn collaboratively** under label scarcity.
 
         I am drawn to problems where data is messy, partially labelled, or distributed across modalities — exactly the conditions found in real-world healthcare, finance, and safety-critical applications. My goal is to design rigorous, reproducible, publication-quality methods that work in the real world.
 

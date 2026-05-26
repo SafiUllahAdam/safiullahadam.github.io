@@ -17,8 +17,8 @@ bio: |
   Systems at Université Claude Bernard Lyon 1, conducting my thesis at the
   LIRIS laboratory (GOAL team) under Prof. Hamida Seba. My research spans
   semi-supervised learning, graph representation learning, computer vision,
-  NLP, and large language models, with a focus on multi-agentic systems
-  that learn collaboratively under label scarcity.
+  NLP, and large language models, with a focus on multiple models that
+  learn collaboratively under label scarcity.
 
 affiliations:
   - name: LIRIS Laboratory — GOAL Team
@@ -40,7 +40,7 @@ interests:
   - Graph Representation Learning & GNNs
   - Computer Vision
   - Natural Language Processing & LLMs
-  - Multi-Agentic Systems
+  - Collaborative Multi-Model Learning
   - Retrieval-Augmented Generation
 
 education:
