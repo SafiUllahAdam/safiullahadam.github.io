@@ -16,9 +16,9 @@ bio: |
   I am a Master 2 Research student in Data and Intelligence for Smart
   Systems at Université Claude Bernard Lyon 1, conducting my thesis at the
   LIRIS laboratory (GOAL team) under Prof. Hamida Seba. My research spans
-  semi-supervised learning, graph representation learning, computer vision,
-  NLP, and large language models, with a focus on multiple models that
-  learn collaboratively under label scarcity.
+  semi-supervised learning, graph representation learning, edge AI,
+  distributed machine learning, NLP, and agentic AI, with a focus on
+  multiple models that learn collaboratively under label scarcity.
 
 affiliations:
   - name: LIRIS Laboratory — GOAL Team
@@ -38,8 +38,9 @@ links:
 interests:
   - Semi-Supervised Learning
   - Graph Representation Learning & GNNs
-  - Computer Vision
-  - Natural Language Processing & LLMs
+  - Edge AI
+  - Distributed Machine Learning
+  - Natural Language Processing & Agentic AI
   - Collaborative Multi-Model Learning
   - Retrieval-Augmented Generation
 
@@ -99,9 +100,11 @@ skills:
         level: 5
       - label: Graph Neural Networks
         level: 4
-      - label: Computer Vision (YOLO, OpenCV, MediaPipe)
+      - label: Edge AI (YOLO, OpenCV, MediaPipe)
         level: 4
-      - label: NLP & LLMs (RAG, Embeddings)
+      - label: Distributed Machine Learning
+        level: 4
+      - label: NLP & Agentic AI (RAG, Embeddings)
         level: 4
       - label: Machine Learning & Semi-Supervised Learning
         level: 5

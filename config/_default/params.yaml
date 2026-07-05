@@ -23,8 +23,8 @@ hugoblox:
     # Site meta description for search engines and social sharing
     description: "Research portfolio of Muhammad Safi Ullah Adam. I am an M2
       Research student at Université Claude Bernard Lyon 1, working on
-      semi-supervised learning, graph representation learning, computer vision,
-      and large language models at the LIRIS laboratory."
+      semi-supervised learning, graph representation learning, edge AI,
+      distributed machine learning, and agentic AI at the LIRIS laboratory."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "" # Twitter/X handle for Twitter Cards (without @)
